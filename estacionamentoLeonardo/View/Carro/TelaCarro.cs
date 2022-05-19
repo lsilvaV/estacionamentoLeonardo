@@ -40,6 +40,11 @@ namespace estacionamentoLeonardo.View.Carro
                 MessageBox.Show("Selecione uma marca");
             }
 
+            else if (string.IsNullOrEmpty(tbxPlaca.Text))
+            {
+                MessageBox.Show("Selecione uma placa");
+            }
+
             else
             {
                 MessageBox.Show("Carro cadastrado sucesso.");

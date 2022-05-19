@@ -34,7 +34,7 @@ namespace estacionamentoLeonardo.View.Ticket
             this.lblData = new System.Windows.Forms.Label();
             this.lblPlaca = new System.Windows.Forms.Label();
             this.lblCor = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.lblTitulo = new System.Windows.Forms.Label();
             this.tbxNome = new System.Windows.Forms.TextBox();
             this.tbxPlaca = new System.Windows.Forms.TextBox();
             this.btnConfirmar = new System.Windows.Forms.Button();
@@ -90,16 +90,16 @@ namespace estacionamentoLeonardo.View.Ticket
             this.lblCor.TabIndex = 3;
             this.lblCor.Text = "Cor:";
             // 
-            // label5
+            // lblTitulo
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(152, 54);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(177, 29);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Gerar Ticket";
+            this.lblTitulo.AutoSize = true;
+            this.lblTitulo.BackColor = System.Drawing.Color.Transparent;
+            this.lblTitulo.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblTitulo.Location = new System.Drawing.Point(152, 54);
+            this.lblTitulo.Name = "lblTitulo";
+            this.lblTitulo.Size = new System.Drawing.Size(177, 29);
+            this.lblTitulo.TabIndex = 4;
+            this.lblTitulo.Text = "Gerar Ticket";
             // 
             // tbxNome
             // 
@@ -166,7 +166,7 @@ namespace estacionamentoLeonardo.View.Ticket
             this.Controls.Add(this.btnConfirmar);
             this.Controls.Add(this.tbxPlaca);
             this.Controls.Add(this.tbxNome);
-            this.Controls.Add(this.label5);
+            this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.lblCor);
             this.Controls.Add(this.lblPlaca);
             this.Controls.Add(this.lblData);
@@ -189,7 +189,7 @@ namespace estacionamentoLeonardo.View.Ticket
         private System.Windows.Forms.Label lblData;
         private System.Windows.Forms.Label lblPlaca;
         private System.Windows.Forms.Label lblCor;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lblTitulo;
         private System.Windows.Forms.TextBox tbxNome;
         private System.Windows.Forms.TextBox tbxPlaca;
         private System.Windows.Forms.Button btnConfirmar;
