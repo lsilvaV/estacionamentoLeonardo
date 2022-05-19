@@ -16,5 +16,47 @@ namespace estacionamentoLeonardo.View.Carro
         {
             InitializeComponent();
         }
+
+        public void Validar()
+        {
+
+            string carro = Convert.ToString(cbxCarro.SelectedItem);
+            string cor = Convert.ToString(cbxCor.SelectedItem);
+            string marca = Convert.ToString(cbxMarca.SelectedItem);
+
+            if (string.IsNullOrEmpty(carro))
+            {
+                MessageBox.Show("Selecione um carro");
+
+            }
+
+            else if (string.IsNullOrEmpty(cor))
+            {
+                MessageBox.Show("Selecione uma cor");
+            }
+
+            else if (string.IsNullOrEmpty(marca))
+            {
+                MessageBox.Show("Selecione uma marca");
+            }
+
+            else
+            {
+                MessageBox.Show("Carro cadastrado sucesso.");
+            }
+        }
+
+        private void btnCadastrar_Click(object sender, EventArgs e)
+        {
+            Validar();
+        }
+
+        private void TelaCarro_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                Validar();
+            }
+        }
     }
 }

@@ -42,6 +42,7 @@ namespace estacionamentoLeonardo.View
             // 
             // menuStrip
             // 
+            this.menuStrip.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.btnArquivo,
             this.btnCliente,
@@ -59,41 +60,41 @@ namespace estacionamentoLeonardo.View
             this.btnArquivo.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.btnSair});
             this.btnArquivo.Name = "btnArquivo";
-            this.btnArquivo.Size = new System.Drawing.Size(61, 20);
+            this.btnArquivo.Size = new System.Drawing.Size(66, 20);
             this.btnArquivo.Text = "Arquivo";
             // 
             // btnSair
             // 
             this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(93, 22);
+            this.btnSair.Size = new System.Drawing.Size(98, 22);
             this.btnSair.Text = "Sair";
             this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // btnCliente
             // 
             this.btnCliente.Name = "btnCliente";
-            this.btnCliente.Size = new System.Drawing.Size(56, 20);
+            this.btnCliente.Size = new System.Drawing.Size(63, 20);
             this.btnCliente.Text = "Cliente";
             this.btnCliente.Click += new System.EventHandler(this.btnCliente_Click);
             // 
             // btnCarro
             // 
             this.btnCarro.Name = "btnCarro";
-            this.btnCarro.Size = new System.Drawing.Size(48, 20);
+            this.btnCarro.Size = new System.Drawing.Size(54, 20);
             this.btnCarro.Text = "Carro";
             this.btnCarro.Click += new System.EventHandler(this.btnCarro_Click);
             // 
             // btnTicket
             // 
             this.btnTicket.Name = "btnTicket";
-            this.btnTicket.Size = new System.Drawing.Size(50, 20);
+            this.btnTicket.Size = new System.Drawing.Size(55, 20);
             this.btnTicket.Text = "Ticket";
             this.btnTicket.Click += new System.EventHandler(this.btnTicket_Click);
             // 
             // btnSobre
             // 
             this.btnSobre.Name = "btnSobre";
-            this.btnSobre.Size = new System.Drawing.Size(49, 20);
+            this.btnSobre.Size = new System.Drawing.Size(56, 20);
             this.btnSobre.Text = "Sobre";
             this.btnSobre.Click += new System.EventHandler(this.btnSobre_Click);
             // 
@@ -102,6 +103,7 @@ namespace estacionamentoLeonardo.View
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(464, 321);
             this.Controls.Add(this.menuStrip);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
